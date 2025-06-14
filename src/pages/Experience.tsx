@@ -250,7 +250,7 @@ const Experience = () => {
           For a complete overview of my experience and qualifications, you can download my resume.
         </p>
         <a 
-          href="Alexander_Harry_Resume.pdf" target="blank" 
+          href="/Alexander_Harry_Resume.pdf" target="_blank" download
           className="btn btn-primary inline-flex items-center gap-2"
         >
           Download Resume
