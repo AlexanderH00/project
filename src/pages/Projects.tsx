@@ -93,22 +93,26 @@ const Projects = () => {
               </div>
               
               <div className="flex gap-4 mt-auto">
-                <a 
-                  href={project.github} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-slate-300 hover:text-blue-400 transition-colors flex items-center gap-1"
-                >
-                  <Github size={16} /> Code
-                </a>
-                <a 
-                  href={project.live} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-slate-300 hover:text-blue-400 transition-colors flex items-center gap-1"
-                >
-                  <ExternalLink size={16} /> Live Demo
-                </a>
+                {project.github && (
+                  <a 
+                    href={project.github} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-slate-300 hover:text-blue-400 transition-colors flex items-center gap-1"
+                  >
+                    <Github size={16} /> Code
+                  </a>
+                )}
+                {project.live && (
+                  <a 
+                    href={project.live} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-slate-300 hover:text-blue-400 transition-colors flex items-center gap-1"
+                  >
+                    <ExternalLink size={16} /> Live Demo
+                  </a>
+                )}
               </div>
             </div>
           </motion.div>
