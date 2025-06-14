@@ -53,11 +53,11 @@ const Navbar = () => {
             </div>
             
             <div className="flex items-center space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/AlexanderH00" target="_blank" rel="noopener noreferrer" 
                 className="text-slate-300 hover:text-blue-400 transition-colors">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://linkedin.com/in/alexanderharry" target="_blank" rel="noopener noreferrer" 
                 className="text-slate-300 hover:text-blue-400 transition-colors">
                 <Linkedin size={20} />
               </a>
@@ -113,11 +113,11 @@ const Navbar = () => {
             </div>
             
             <div className="flex items-center space-x-6 pt-4 border-t border-slate-700">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/AlexanderH00" target="_blank" rel="noopener noreferrer" 
                 className="text-slate-300 hover:text-blue-400 transition-colors">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://linkedin.com/in/alexanderharry" target="_blank" rel="noopener noreferrer" 
                 className="text-slate-300 hover:text-blue-400 transition-colors">
                 <Linkedin size={20} />
               </a>

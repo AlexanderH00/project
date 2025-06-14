@@ -5,9 +5,9 @@ const Experience = () => {
   const workExperience = [
     {
       title: "Ground Handling Service Agent",
-      company: "Swissport",
-      period: "June 2022 - Present",
-      location: "Manchester Airport",
+      company: "Dortmund Handling Service (DHS)",
+      period: "March 2023 - Present",
+      location: "Frankfurt Airport",
       description: [
         "Managed passenger check-in, boarding, and baggage processes for multiple airlines",
         "Resolved complex customer issues while maintaining high service standards",
@@ -18,9 +18,9 @@ const Experience = () => {
     },
     {
       title: "Sales Assistant",
-      company: "JD Sports",
-      period: "September 2021 - May 2022",
-      location: "Manchester, UK",
+      company: "LaGrace Communication Company",
+      period: "September 2021 - February 2022",
+      location: "Kharkiv, Ukraine",
       description: [
         "Provided exceptional customer service in a fast-paced retail environment",
         "Maintained product knowledge to effectively assist customers with purchases",
@@ -31,9 +31,9 @@ const Experience = () => {
     },
     {
       title: "IT Support (Intern)",
-      company: "Tech Solutions Ltd",
-      period: "June 2020 - August 2020",
-      location: "Kharkiv, Ukraine",
+      company: "Ashard Energy Company Limited",
+      period: "February 2021 - April 2022",
+      location: "Port Harcourt, Rivers State, Nigeria",
       description: [
         "Provided technical support to end-users, troubleshooting hardware and software issues",
         "Assisted with network maintenance and security updates",
@@ -46,17 +46,16 @@ const Experience = () => {
   const education = [
     {
       degree: "MSc in Computer Science",
-      institution: "University of Manchester",
-      period: "2022 - 2023",
-      location: "Manchester, UK",
-      description: "Specialized in Machine Learning and Data Science. Thesis: Simulation of Resource Consumption Dynamics in Distributed Systems Using Cellular Automata."
+      institution: "Philipps-Universität Marburg",
+      period: "2023 - Present",
+      location: "Marburg, Hessen, Germany",
     },
     {
       degree: "BSc in Computer Science",
       institution: "Kharkiv National University of Radio Electronics",
       period: "2018 - 2022",
       location: "Kharkiv, Ukraine",
-      description: "Focused on Software Engineering and Computer Systems. Graduated with honors."
+      description: "Specialized in Machine Learning and Data Science. Thesis: Simulation of Resource Consumption Dynamics in Distributed Systems Using Cellular Automata."
     }
   ];
 
@@ -71,7 +70,7 @@ const Experience = () => {
       "Time Management", "Adaptability", "Critical Thinking"
     ],
     languages: [
-      "English (Fluent)", "Ukrainian (Native)", "Russian (Native)"
+      "English (Fluent)", "German (B1)"
     ]
   };
 
@@ -251,7 +250,7 @@ const Experience = () => {
           For a complete overview of my experience and qualifications, you can download my resume.
         </p>
         <a 
-          href="#" 
+          href="Alexander_Harry_Resume.pdf" target="blank" 
           className="btn btn-primary inline-flex items-center gap-2"
         >
           Download Resume

@@ -34,7 +34,7 @@ const Home = () => {
     { 
       icon: <Languages size={24} />, 
       title: "Languages", 
-      items: ["English (Fluent)", "Ukrainian (Native)", "Russian (Native)"] 
+      items: ["English (Fluent)", "German (B1)"] 
     }
   ];
 
@@ -50,7 +50,7 @@ const Home = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-              Hi, I'm <span className="text-blue-500">Alex Harry</span>
+              Hi, I'm <span className="text-blue-500">Alexander Harry</span>
               <br />Software Developer
             </h1>
             <p className="text-slate-300 text-lg md:text-xl">
@@ -79,14 +79,14 @@ const Home = () => {
                   <Briefcase className="text-blue-400" size={24} />
                   <div>
                     <h3 className="font-medium text-white">Software Developer</h3>
-                    <p className="text-slate-400 text-sm">5+ years of experience</p>
+                    
                   </div>
                 </div>
                 
                 <div className="border-t border-slate-800 pt-4">
                   <h3 className="font-medium text-white mb-2">Education</h3>
                   <p className="text-slate-300">MSc in Computer Science</p>
-                  <p className="text-slate-400 text-sm">University of Manchester, 2023</p>
+                  <p className="text-slate-400 text-sm">Philipps-Universität Marburg</p>
                 </div>
                 
                 <div className="border-t border-slate-800 pt-4">

@@ -18,15 +18,15 @@ function Contact() {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Mail className="h-6 w-6 text-blue-600 mr-3" />
-                <span className="text-gray-600">contact@example.com</span>
+                <span className="text-gray-600">alexharry27@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-6 w-6 text-blue-600 mr-3" />
-                <span className="text-gray-600">+1 (555) 123-4567</span>
+                <span className="text-gray-600">+4915146312967</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-6 w-6 text-blue-600 mr-3" />
-                <span className="text-gray-600">123 Business Street, Suite 100<br />City, State 12345</span>
+                <span className="text-gray-600">Giessen, Germany</span>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ function Contact() {
                   type="text"
                   id="name"
                   name="name"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-gray-900"
                 />
               </div>
               <div>
@@ -56,7 +56,7 @@ function Contact() {
                   type="email"
                   id="email"
                   name="email"
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-gray-900"
                 />
               </div>
               <div>
@@ -67,7 +67,7 @@ function Contact() {
                   id="message"
                   name="message"
                   rows={4}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 text-gray-900"
                 />
               </div>
               <button

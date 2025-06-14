@@ -8,48 +8,41 @@ const Projects = () => {
       description: "A web application that allows students to plan their academic schedules with a drag-and-drop interface, conflict detection, and course recommendations.",
       technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
       image: "https://images.pexels.com/photos/3243090/pexels-photo-3243090.jpeg",
-      github: "#",
-      live: "#"
     },
     {
       title: "Web-Based Restaurant Data Display Application",
       description: "A web application that displays restaurant data with filtering and sorting capabilities, using React and a RESTful API.",
       technologies: ["React", "JavaScript", "CSS", "RESTful API"],
       image: "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg",
-      github: "#",
-      live: "#"
+      github: "https://github.com/AlexanderH00/Restaurant-Data-Display-Application",
     },
     {
       title: "Personal Portfolio Website",
       description: "A responsive portfolio website showcasing my projects and skills, built with React and Tailwind CSS.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       image: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg",
-      github: "#",
-      live: "#"
+      github: "https://github.com/AlexanderH00/project",
+      live: "alexanderharry.com"
     },
     {
       title: "CIFAR-10 Image Classification Using CNN",
       description: "A machine learning project that uses convolutional neural networks to classify images from the CIFAR-10 dataset.",
       technologies: ["Python", "TensorFlow", "Keras", "NumPy", "Matplotlib"],
       image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
-      github: "#",
-      live: "#"
+      github: "https://github.com/AlexanderH00/Neural-Networks-Image-Classification",
     },
     {
       title: "COVID-19 Interactive Data Visualization Dashboard",
       description: "An interactive dashboard that visualizes COVID-19 data using D3.js and React.",
       technologies: ["React", "D3.js", "JavaScript", "CSS", "REST API"],
       image: "https://images.pexels.com/photos/7579831/pexels-photo-7579831.jpeg",
-      github: "#",
-      live: "#"
+      github: "https://github.com/AlexanderH00/COVID-19-Interactive-Dashboard-main",
     },
     {
       title: "Industrial Robot Operation Simulation Platform",
       description: "A simulation platform for industrial robot operations, developed as part of a university project.",
       technologies: ["C++", "OpenGL", "Python", "Qt"],
       image: "https://images.pexels.com/photos/8566472/pexels-photo-8566472.jpeg",
-      github: "#",
-      live: "#"
     }
   ];
 
@@ -133,7 +126,7 @@ const Projects = () => {
           I'm constantly working on new projects and improving existing ones. Check out my GitHub profile for more of my work.
         </p>
         <a 
-          href="https://github.com" 
+          href="https://github.com/AlexanderH00" 
           target="_blank" 
           rel="noopener noreferrer"
           className="btn btn-outline inline-flex items-center gap-2"
