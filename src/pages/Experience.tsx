@@ -7,7 +7,7 @@ const Experience = () => {
       title: "Ground Handling Service Agent",
       company: "Dortmund Handling Service (DHS)",
       period: "March 2023 - Present",
-      location: "Frankfurt Airport",
+      location: "Frankfurt Airport, Germany",
       description: [
         "Managed passenger check-in, boarding, and baggage processes for multiple airlines",
         "Resolved complex customer issues while maintaining high service standards",
