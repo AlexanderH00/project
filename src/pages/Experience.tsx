@@ -32,7 +32,7 @@ const Experience = () => {
     {
       title: "IT Support (Intern)",
       company: "Ashard Energy Company Limited",
-      period: "February 2021 - April 2022",
+      period: "February 2021 - April 2021",
       location: "Port Harcourt, Rivers State, Nigeria",
       description: [
         "Provided technical support to end-users, troubleshooting hardware and software issues",
